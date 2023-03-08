@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::before,*::after{
+box-sizing: inherit;
+}
+
+
+@media (min-width:768px){
+    .dos-columnas{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.contenedor{
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+.avatar{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    display: block;
+    margin: auto;
+}
+
+
+.extra{
+    flex: 0 0 calc(33% - 1rem);
+    background-color: rgb(25, 128, 93); 
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    
+}
+
+.principal{
+    flex: 0 0 calc(66% - 1rem);
+    background-color: rgb(156, 155, 153); 
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+#title{
+    color: rgb(25, 128, 93) ;
+   
+}
+
+span{
+    color: rgb(25, 128, 93) ;
+}
+
+h1{
+    font-weight: 500;
+}
+
+.separador{
+    border: 2px solid rgb(25, 128, 93);
+    margin: 0px;
+
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#boton1{
+    background-color: rgb(25, 128, 93);
+    border: rgb(25, 128, 93);;
+}
+
+#boton2{
+    background-color: rgb(25, 128, 93);
+    border: rgb(25, 128, 93);;
+}
+#boton3{
+    background-color: rgb(25, 128, 93);
+    border: rgb(25, 128, 93);;
+}
+#boton4{
+    background-color: rgb(25, 128, 93);
+    border: rgb(25, 128, 93);;
+}
+
+
+#boton1:hover{
+    cursor: pointer;
+    color:rgb(156, 155, 153) ;
+}
+#boton2:hover{
+    cursor: pointer;
+    color:rgb(156, 155, 153) ;
+}
+#boton3:hover{
+    cursor: pointer;
+    color:rgb(156, 155, 153) ;
+}
+#boton4:hover{
+    cursor: pointer;
+    color:rgb(156, 155, 153) ;
+}
+
